@@ -1,0 +1,14 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: lightcyan;
+}
+.page-name{
+	text-align: center;
+	letter-spacing: 0.25rem;
+	font-size: 2.5rem;
+	color: crimson;
+}
