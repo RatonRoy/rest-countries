@@ -4,11 +4,35 @@
 	box-sizing: border-box;
 }
 body{
-	background-color: lightcyan;
+	/* background-color: rgb(67, 68, 68); */
 }
 .page-name{
 	text-align: center;
 	letter-spacing: 0.25rem;
 	font-size: 2.5rem;
 	color: crimson;
+	padding: 2rem 1rem;
+}
+.countries {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 2rem;
+	/* background-color: rgb(109, 126, 120); */
+}
+.country-wrap{
+	text-align: center;
+	border: 2px solid royalblue;
+	border-radius: 1.5rem; 
+}
+.countries img{
+	display: block;
+	width: 100%;
+	border-radius: 1.5rem 1.5rem 0  0;
+}
+.countryName{
+	letter-spacing: 0.25rem;
+	padding-top: 1rem;
+	color: rgb(219, 10, 45);
+	font-size: 3rem;
+
 }
